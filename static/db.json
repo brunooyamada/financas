@@ -10,7 +10,7 @@
     {
       "id": 2,
       "description": "Curso Laravel PRO",
-      "amount": 19.90,
+      "amount": 19.9,
       "date": "2022-01-01",
       "categoryId": 1
     },
@@ -55,6 +55,21 @@
       "amount": 100,
       "date": "2022-01-15",
       "categoryId": 5
+    },
+    {
+      "date": "2022-11-28",
+      "amount": "5",
+      "description": "descricao",
+      "categoryId": "1",
+      "category": "1",
+      "id": 9
+    },
+    {
+      "date": "2022-11-28",
+      "amount": "123",
+      "description": "teste 123",
+      "categoryId": "2",
+      "id": 10
     }
   ],
   "categories": [
