@@ -70,6 +70,48 @@
       "description": "teste 123",
       "categoryId": "2",
       "id": 10
+    },
+    {
+      "date": "2022-12-06",
+      "amount": "123",
+      "description": "teste hoje",
+      "categoryId": "1",
+      "id": 11
+    },
+    {
+      "date": "2022-12-06",
+      "amount": "123",
+      "description": "teste hoje",
+      "categoryId": "1",
+      "id": 12
+    },
+    {
+      "date": "2022-12-06",
+      "amount": "2",
+      "description": "teste a",
+      "categoryId": "2",
+      "id": 13
+    },
+    {
+      "date": "2022-12-06",
+      "amount": "5",
+      "description": "teste abacv",
+      "categoryId": "3",
+      "id": 14
+    },
+    {
+      "date": "2022-12-06",
+      "amount": "6",
+      "description": "123 teste",
+      "categoryId": "4",
+      "id": 15
+    },
+    {
+      "date": "2022-12-08",
+      "amount": "3",
+      "description": "sorvete1",
+      "categoryId": 4,
+      "id": 16
     }
   ],
   "categories": [
