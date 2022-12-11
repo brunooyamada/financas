@@ -31,7 +31,7 @@
     {
       "id": 5,
       "description": "IPVA",
-      "amount": 750,
+      "amount": "-750",
       "date": "2022-01-07",
       "categoryId": 3
     },
@@ -51,7 +51,7 @@
     },
     {
       "id": 8,
-      "description": "Google stcok",
+      "description": "Google stcok1",
       "amount": 100,
       "date": "2022-01-15",
       "categoryId": 5
@@ -75,7 +75,7 @@
       "date": "2022-12-06",
       "amount": "123",
       "description": "teste hoje",
-      "categoryId": "1",
+      "categoryId": 1,
       "id": 11
     },
     {
@@ -108,7 +108,7 @@
     },
     {
       "date": "2022-12-08",
-      "amount": "3",
+      "amount": "-3",
       "description": "sorvete1",
       "categoryId": 4,
       "id": 16
