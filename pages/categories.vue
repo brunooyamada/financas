@@ -6,10 +6,6 @@
       </h1>
     </div>
 
-    <pre>
-      {{ categories }}
-    </pre>
-
     <div class="mt-6">
       <div>
         <div class="flex items-center space-x-3">
