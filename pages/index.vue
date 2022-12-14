@@ -38,6 +38,7 @@
               :key="transaction.id"
               :transaction="transaction"
               @update="onUpdate"
+              @delete="onDelete"
             />
           </div>
         </div>
@@ -103,6 +104,10 @@ export default {
       .then((response) => {
         this.transactions = response;
       });
+    },
+    onDelete(transaction) {
+      const idx = this.transactions.findIndex(o => o.id === transaction.id);
+      this.transactions.splice(idx, 1);
     },
   }
 }

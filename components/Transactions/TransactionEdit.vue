@@ -27,6 +27,14 @@
         </div>
 
         <div class="space-x-4 flex items-center justify-end">
+          <a
+              href="#"
+              class="text-red-600 hover:text-red-900"
+              @click.stop.prevent="deleteTransaction(localTransaction.id)"
+            >
+              Excluir
+            </a>
+
           <a 
             href="" 
             class="inline-flex text-gray-700 text-sm"
@@ -69,6 +77,7 @@ export default {
   data() {
     return {
       localTransaction: {
+        id: this.transaction.id,
         date: this.transaction.date,
         description: this.transaction.description,
         amount: this.transaction.amount,
@@ -96,6 +105,13 @@ export default {
     onCancel() {
       this.$emit('cancel');
     },
+    deleteTransaction(id) {
+      this.$store.dispatch('transactions/deleteTransaction', { id })
+      .then(() => {
+        this.$emit('delete', this.localTransaction);
+        this.onCancel();
+      });
+    }
   },
 }
 </script>

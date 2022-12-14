@@ -12,5 +12,8 @@ export default {
   },
   updateTransaction(context, { id, data }) {
     return this.$axios.$patch(`transactions/${id}`, data);
+  },
+  deleteTransaction(context, { id }) {
+    return this.$axios.$delete(`transactions/${id}`);
   }
 }

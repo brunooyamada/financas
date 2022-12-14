@@ -42,6 +42,7 @@
         v-if="isUpdating" 
         :transaction="transaction"
         @update="onUpdate"
+        @delete="onDelete"
         @cancel="(isUpdating = false) "
       />
     </div>
@@ -73,9 +74,11 @@ export default {
   
   methods: {
     onUpdate(transaction) {
-      console.log('Filho')
       this.$emit('update', transaction);
-    }
+    },
+    onDelete(transaction) {
+      this.$emit('delete', transaction);
+    },
   },
 }
 </script>
